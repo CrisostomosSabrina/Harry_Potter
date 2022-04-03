@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url(../image/books.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Gelasio', serif;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0px auto;
+
+}
+
+.banner .content-info {
+   
+    max-width: 650px; 
+    font-family: 'Gelasio', serif;
+     
+}
+
+.banner .content-info h2 {
+    text-shadow: 1px 1px rgb(244, 210, 255);
+    text-align: left;  
+    font-size: 1.4em;
+    margin-left: 35px;
+    color: #8b0000;
+    line-height: 1.1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 3.9em;
+    letter-spacing: 0.07em;
+}
+
+.banner .content-info h2 span {
+    font-weight: 800;
+    font-size: 1.4em;
+}
+
+.banner .content-info p {    
+    font-size: 1.1em;
+    font-weight: 200;
+    line-height: 1.2em;
+    color: #fffafa;
+    margin-left: 35px; 
+    text-align: left;
+    padding-bottom: 80px;
+}
+
+.iconelivro {
+    position: absolute;
+    right: 100px;
+    top: 30px; 
+}
+
+.iconefilme {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    width: 60px;
+    
+}
+
+#div_filme{
+    position: absolute;
+    right: 580px;
+    top: 170px;
+    width: 60px;
+}
+
+#icone_fechar{
+    position: absolute;
+    right: 68px;
+    top: 170px;
+    width: 60px;
+}
